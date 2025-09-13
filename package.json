@@ -1,0 +1,30 @@
+{
+  "name": "chroma-vector",
+  "version": "1.0.0",
+  "description": "Vector DB search",
+  "homepage": "https://github.com/siddheshkubal14/chroma-vector#readme",
+  "bugs": {
+    "url": "https://github.com/siddheshkubal14/chroma-vector/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddheshkubal14/chroma-vector.git"
+  },
+  "license": "ISC",
+  "author": "siddhesh",
+  "type": "commonjs",
+  "main": "dist/chromaClient.js",
+  "scripts": {
+    "start": "tsc && node dist/chromaClient.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.8",
+    "chromadb": "^3.0.15",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1"
+  }
+}
